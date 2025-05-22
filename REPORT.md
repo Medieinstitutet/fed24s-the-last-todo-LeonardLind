@@ -51,7 +51,7 @@ för att köra projektet.
 
 
 ## 🏆 **Betyg: IG**
-📌 **Motivering:** Koden uppfyller inte kraven för G eftersom det saknas implementation av en todo-lista. Det finns inga hårdkodade todo-punkter, ingen funktionalitet för att hantera borttagningen av en todo, och todo-listan presenteras inte på skärmen i en lista. Koden innehåller bara en enkel React-komponent med en räknare utan någon koppling till uppgiftens krav.
+📌 **Motivering:** The code provided does not fulfill the assignment requirements for the Todo list. It is a basic setup for a Vite + React application without any implementation specific to the Todo list functionality.
 
 💡 **Förbättringsförslag:**  
-För att uppnå betyget G behöver du skapa en hårdkodad lista med punkt att göra och presentera dem i en ul/li-lista på skärmen. Implementera funktionalitet för att markera en todo som klar och ta bort den från listan, samt reflektera ändringen i den underliggande JavaScript-listan. För VG, inkludera funktionalitet för att visa klara uppgifter, ha en formulär för att lägga till nya todos, använda 'lifting state up' för komponenter, möjliggöra sortering av todos, och implementera ett grafiskt ramverk som Tailwind CSS.
+To meet the 'G' criteria, start by implementing a hardcoded list of todo items in the app. Display this list on the screen, perhaps using a <ul> and <li> structure. Implement click handling that allows the user to mark tasks as completed and remove them from the screen/display. Update the JavaScript list to reflect completed tasks. For 'VG', add more features like the ability to toggle tasks back to incomplete, create new todos via a form, manage component state effectively with lifting state up, allow sorting of todos, and integrate a CSS framework like Material UI or Tailwind CSS.
